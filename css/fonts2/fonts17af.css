@@ -1,0 +1,46 @@
+
+@font-face{
+	font-family:Font_Jameel-Noori-Nastaleeq;
+	src:url(Font_Jameel-Noori-Nastaleeq.woff); 
+}
+
+@font-face{
+	font-family:web2_b;
+	src:url(web2_b.otf); 
+}
+
+@font-face {
+  font-family:web2_b;
+  src: url("web2_b.otf"),
+       url("web2_b.ttf") format("opentype");
+}
+
+.ur{font-family:Font_Jameel-Noori-Nastaleeq; direction:rtl !important; font-size: 18px;}
+
+
+
+.ar{font-family:Al Qalam Quran Majeed Web2_D; direction:rtl !important;
+	/*font-weight: bold;*/
+	/*color: #400202;*/
+	font-size: 24px;
+	margin-bottom: 20px;}
+
+.fonts18{font-size: 18px;}
+
+@font-face{
+	font-family:'Al_Mushaf';
+	src:url(Al_Mushaf.ttf); 
+}
+
+@font-face{
+	font-family:'Al Qalam Quran Majeed Web2_D';
+	src:url(web2_b.otf); 
+}
+
+.ur_ar{font-family:Font_Jameel-Noori-Nastaleeq,web2_b; direction:rtl !important; font-size: 18px;}
+
+@font-face{
+    font-family:Al-Qalam-V1;
+    src:local("Al Qalam Quran Majeed Web2_D"),
+    url("AlQalamQuranMajeedWeb2_D.otf");
+}

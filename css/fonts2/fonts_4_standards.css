@@ -1,0 +1,30 @@
+@font-face {
+    font-family:'Aslam';
+    src: url(fonts_4_standards/Aslam.ttf);
+}
+
+@font-face {
+    font-family:'Al_Mushaf';
+    src: url(fonts_4_standards/Al_Mushaf.ttf);
+}
+
+@font-face {
+    font-family:'Jameel Noori Nastaleeq';
+    src: url(fonts_4_standards/Font_Jameel-Noori-Nastaleeq.woff);
+}
+
+@font-face {
+    font-family:'Alvi Nastaleeq';
+    src: url(fonts_4_standards/Font_Jameel-Noori-Nastaleeq.woff);
+}
+
+@font-face {
+    font-family:'Noori Nastaliq';
+    src: url(fonts_4_standards/Font_Jameel-Noori-Nastaleeq.woff);
+}
+
+@font-face {
+    font-family:'Al Qalam Quran Majeed Web2_D';
+    src: url(fonts_4_standards/web2_b.otf);
+}
+

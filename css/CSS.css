@@ -1,0 +1,306 @@
+/* * */
+  /* { */
+  /* border:0; */
+  /* margin:0; */
+  /* padding:0; */
+  /* } */
+
+html,
+/* body */
+  /* { */
+  /* background:#FFFFF0; */
+  /* } */
+
+p
+  {
+  font-family:Arial, Verdana, Sans-Serif;
+  font-size:13pt;
+  font-weight:normal;
+  font-style:normal;
+  color:#000000;
+  text-decoration:none;
+  padding-top:10px;
+  padding-bottom:10px;
+  }
+
+table
+  {
+  empty-cells:show;
+  }
+
+tr 
+  {
+  border:0; 
+  margin:0; 
+  padding:0;
+  }
+  
+img
+  {
+  cursor:pointer;
+  border:0;
+  }
+
+.left_column
+  {
+  width:13%;
+  }
+
+.center_column
+  {
+  width:70%;
+  }
+
+.right_column
+  {
+  width:17%;
+  }
+
+.colored_spacer
+  {
+  background:#B0C4DE;
+  height:5px;
+  width:100%;
+  }
+
+.header
+  {
+  height:100px;
+  width:100%;
+  }
+
+.left_header
+  {
+  text-align:center;
+  }
+
+.center_header
+  {
+  text-align:left;
+  }
+
+.right_header
+  {
+  text-align:right;
+  }
+
+.header_title_subtitle
+  {
+  height:50%; 
+  text-align:left; 
+  vertical-align:middle; 
+  padding-left:20px;
+  }
+  
+#header_title
+  {
+  font-size:20pt;
+  font-weight:bold;
+  font-style:normal;
+  color:#4682B4;
+  text-decoration:none;
+  }
+
+#header_subtitle
+  {
+  font-size:15pt;
+  font-weight:bold;
+  font-style:normal;
+  color:#4682B4;
+  text-decoration:none;
+  }
+
+.textsize
+  {
+  padding:0;
+  float:right;
+  font-size:11px;
+  color:#4682B4;
+  }
+
+.textsize a
+  {
+  color:#4682B4;
+  outline:none;
+  font-weight:bold;
+  padding:0 1px;
+  text-decoration:none;
+  }
+
+.textsize a.small
+  {
+  font-size:10px;
+  }
+
+.textsize a.big
+  {
+  font-size:14px;
+  }
+
+.textsize a.bigger
+  {
+  font-size:18px;
+  }
+
+.textsize a:hover
+  {
+  color:#333;
+  }
+
+.content
+  {
+  padding-bottom:10px;
+  padding-top:10px;
+  height:200px;
+  width:100%;
+  vertical-align:text-top;
+  }
+
+.left_content
+  {
+  text-align:center;
+  vertical-align:top;
+  }
+
+.center_content
+  {
+  text-align:left;
+  padding-left:10px;
+  }
+
+.right_content
+  {
+  text-align:center;
+  vertical-align:top;
+  }
+
+.footer
+  {
+  background:#B0C4DE;
+  width:100%;
+  vertical-align:middle;
+  font-size:10pt;
+  font-style:normal;
+  color:#000000;
+  text-decoration:none;
+  text-align:center;
+  }
+
+.footer_first_line
+  {
+  margin-top:3px;
+  }
+
+.footer_second_line
+  {
+  }
+  
+.text_link
+  {
+  color:#0000FF; 
+  text-decoration:underline;
+  cursor:pointer;
+  }
+
+.variable_font
+  {
+  font-size:20px !important;
+  }
+ 
+
+ 
+ @media (min-width: 768px) and (max-width: 2560px) {
+
+ .fa_font_color{    
+    color: black!important;
+	}
+}
+
+.top__note__div{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #00000052;
+  z-index: 999999;
+}
+.top__note__div__inser{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.top__note{
+  /*position: fixed;*/
+  /*left: 25%;*/
+  /*top: 25%;*/
+  box-shadow: #00000094 0px 0px 16px 0px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(60, 60, 60);
+  border: 1px solid rgb(244, 244, 244);
+  width: 50%;
+  padding: 40px 30px 70px 30px;
+  border-radius: 10% / 70% 70% 0%;
+  margin: 10px auto 0px !important;
+}
+.top__note span{
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.top__note .one__span:before{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 40%;
+  width: 20%;
+  height: 3px;
+  background-image: linear-gradient(90deg,#3c3c48 50% ,#168ab5 50%);
+}
+.top__note .two_span{
+  color: #168a99;
+}
+.Announcement__gif{
+  width: 9%;
+  position: fixed;
+  top: 20%;
+  right: 0;
+  z-index: 999;
+}
+.Announcement__gif_inner{
+width: 70px;
+z-index: 999;
+transform: scaleX(-1) rotate(346deg);
+}
+
+.Announcement__gif:hover{
+cursor: pointer;
+}
+
+@media(max-width: 992px){
+  .top__note{
+  width: 90%;
+  }
+  .Announcement__gif{
+    width: 12%;
+  }
+}
+@media(max-width: 576px){
+    .Announcement__gif{
+        width: 20%;
+    }
+}
+@media(max-width: 480px){
+  .top__note{
+  font-size: 20px;
+  padding: 10px 20px 20px 20px;
+  }
+}
